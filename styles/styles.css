@@ -1,0 +1,99 @@
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.rounded-pill {
+  border-radius: 50rem;
+}
+
+.d-block {
+  display: block;
+}
+
+.navbar {
+  background-color:#f4e7ec;
+}
+
+.self-portrait {
+  width: 15%;
+  display: block;
+  margin: 30px auto 30px;
+}
+
+.jumbotron {
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f4e7ec;
+  position: relative;
+}
+
+.btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.email {
+  text-align: center;
+}
+
+#link-button-1, #link-button-2 {
+  padding: 6px;
+  width: 75px;
+  transition: transform .2s;
+}
+
+#link-button-1:hover, #link-button-2:hover {
+  transform: scale(1.2);
+}
+
+.link-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary {
+  background-color: #1c2035;
+  border-color: #1c2035;
+}
+
+.btn-primary:hover {
+  background-color: #9293a1;
+  border-color: #9293a1;
+}
+
+.display-4 {
+  text-align: center;
+}
+
+#landing-page-text {
+  text-align: center;
+}
+
+#about-me {
+  margin-top: 300px;
+}
+
+#contact {
+  margin-top: 300px;
+  margin-bottom: 225px;
+  position: relative;
+}
